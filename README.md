@@ -80,8 +80,11 @@ The script then processes and displays output in a clean terminal-friendly forma
 
 ⚙ **Commands List**
 Command	Description
+
 .percentage	Shows percentage of passed students
+
 .topper	Displays student(s) with the highest marks
+
 .passlist	Lists all passed students with their marks
 
 📌 **Configuration**
