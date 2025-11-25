@@ -1,4 +1,4 @@
-📄 CSV Reader — Python CLI Tool
+📄 **CSV Reader — Python CLI Tool**
 
 A simple and feature-rich CSV Student Marks Reader created in Python.
 This tool reads a CSV file containing student names and marks, and allows you to perform multiple operations such as:
@@ -15,7 +15,7 @@ This tool reads a CSV file containing student names and marks, and allows you to
 
 This repository is ideal for learning Python fundamentals, CSV handling, and making neat terminal tools.
 
-📁 CSV Format
+📁 **CSV Format**
 
 Your .csv file must follow this simple structure:
 ```
@@ -33,7 +33,7 @@ Second column → Marks (integer)
 
 No extra spaces, quotes, or headers needed.
 
-🚀 Features
+🚀 **Features**
 ✔ 1. Percentage Calculator (.percentage)
 
 Calculates what percentage of students have passed based on the passing marks criteria (default: 50).
@@ -68,7 +68,7 @@ Displays all passed students along with their marks.
 • Eman  | Marks: 91
 ------------------------------
 ```
-🛠 How It Works
+🛠 **How It Works**
 
 You start the script, provide the CSV file path, and then choose what task to perform.
 ```
@@ -78,13 +78,13 @@ You start the script, provide the CSV file path, and then choose what task to pe
 
 The script then processes and displays output in a clean terminal-friendly format.
 
-⚙ Commands List
+⚙ **Commands List**
 Command	Description
 .percentage	Shows percentage of passed students
 .topper	Displays student(s) with the highest marks
 .passlist	Lists all passed students with their marks
 
-📌 Configuration
+📌 **Configuration**
 Change Passing Marks
 Modify this line in the code:
 ```
@@ -96,14 +96,14 @@ total_marks = 100
 ```
 depending on your grading system.
 
-📦 Requirements
+📦 **Requirements**
 
 This project uses only Python’s built-in modules, so no external libraries are needed.
 ```
-Python 3.x
+Python 3
 CSV file to load
 ```
-▶ Running the Script
+▶ **Running the Script**
 
 Clone the repo:
 ```
@@ -118,7 +118,7 @@ python CSVreader.py
 
 Follow the on-screen prompts.
 
-📚 Code Structure
+📚 **Code Structure**
 main.py
 ├── CSV reading and parsing
 ├── percentage_of_passed()
